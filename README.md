@@ -1,4 +1,4 @@
-## Установка gotk3
+# Установка gotk3
 
 - go get [github.com/gotk3/gotk3/](http://github.com/gotk3/gotk3/)gtk
 - go get [github.com/gotk3/gotk3/](http://github.com/gotk3/gotk3/)gdk
@@ -6,10 +6,10 @@
 - go get [github.com/gotk3/gotk3/](http://github.com/gotk3/gotk3/)cairo
 - Использовать require [github.com/gotk3/gotk3](http://github.com/gotk3/gotk3) v0.6.3 Если 0.6.4 не работает
 
-## Установка gtk
+# Установка gtk
 
-# Ubuntu
+## Ubuntu
 sudo apt-get install libgtk-3-dev
 
-# macOS
+## macOS
 brew install gtk-mac-integration gtk+3
