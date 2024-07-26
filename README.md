@@ -8,8 +8,8 @@
 
 ## Установка gtk
 
-Ubuntu
+# Ubuntu
 sudo apt-get install libgtk-3-dev
 
-macOS
+# macOS
 brew install gtk-mac-integration gtk+3
