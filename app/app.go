@@ -31,12 +31,19 @@ func App() {
 	})
 
 	//Элементы GUI
-	objReg, _ = b.GetObject("login_reg_btn")
-	loginRegBtn := objReg.(*gtk.Button)
+	objReg, _ = b.GetObject("newuser_reg_btn")
+	btnReg := objReg.(*gtk.Button)
+
+	objReg, _ = b.GetObject("login_reg_entry")
+	entryLogin := objReg.(*gtk.Entry)
+
+	objReg, _ = b.GetObject("pass_reg_entry")
+	entryPass := objReg.(*gtk.Entry)
 
 	//Обработка событий
-	loginRegBtn.Connect("clicked", func() {
-		fmt.Println("test")
+	btnReg.Connect("clicked", func() {
+		fmt.Println(entryLogin.GetText())
+		fmt.Println(entryPass.GetText())
 	})
 
 	winReg.ShowAll()
